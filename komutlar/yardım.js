@@ -10,7 +10,7 @@ exports.run = async(client, message, args) => {
     const embed = new Discord.MessageEmbed()
         .setAuthor(`${client.user.username} `, client.user.displayAvatarURL({dynamic: true}))
         .setColor('#d02090')
-       .setTitle(`<a:ykleniyor:752305324588793896> **Quin Bot Yardım Menüsüne Hoşgeldiniz** <a:ykleniyor:752305324588793896>`)
+       .setTitle(` **Quin Bot Yardım Menüsüne Hoşgeldiniz** `)
         .setDescription(`
   **» ${prefix}premium-sistemi** <a:sagok:749305875188940983> Premium Komutlarını Gösterir.		
   **» ${prefix}ekonomi** <a:sagok:749305875188940983> Ekonomi Komutlarını Gösterir.

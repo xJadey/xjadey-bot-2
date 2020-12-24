@@ -17,7 +17,7 @@ const http = require("http");
 const express = require("express");
 const app = express();
 app.get("/", (request, response) => {
-  console.log(Date.now() + " PİNGLENDİ ");
+  console.log(Date.now() + "Bot Aktif");
   response.sendStatus(200);
 });
 app.listen(8000);
